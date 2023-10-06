@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #003399;
+    height: 100px;
+    padding: 20px;
+  }
+  
+  .logo {
+    float: left;
+    width: 200px;
+  }
+  
+  .nav {
+    float: right;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+  }
+  
+  .nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .banner {
+    background-image: url("img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+  
+  .chamada-de-acao {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .produtos {
+    border-top: 1px solid #003399;
+    padding-top: 20px;
+  }
+  
+  .servicos {
+    border-top: 1px solid #003399;
+    padding-top: 20px;
+  }

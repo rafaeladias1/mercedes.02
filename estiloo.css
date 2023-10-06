@@ -1,0 +1,89 @@
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    }
+    
+    body{
+        background-color: #ffffff;
+        background-position: center;
+        background-size: cover;
+        height: 100;
+    
+    }
+    
+    .form{
+        width: 300px;
+        height: 700px;
+        color: #fff;
+        background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%,rgba(0,0,0,0.8)50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 10px;
+        padding: 40px 25px;
+    }
+    
+    .form h1{
+        width: 220px;
+        text-align: center;
+        padding-left: 11px;
+        margin-bottom: 20px;
+        font-size: 35px;
+        color: #ffffff;
+    
+    }
+    
+    .form input{
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+        background: transparent;
+        border-bottom: 1px solid #fff;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 5px; 
+        outline: none;
+    }
+    .form input:focus{
+        outline: none;
+    }
+    
+    ::placeholder{
+    color: #fff;
+    font-family: Arial;
+    
+    }
+    
+    .bnt{
+        font-size: 18px;
+        padding: 10px 15px;
+        background: transparent;
+        border: none;
+        margin-top: 10px;
+        margin-left: 80px;
+        cursor: pointer;
+    }
+    
+    .bnt a{
+        text-decoration: none;
+        color: #fdfdfd;
+        font-weight: bold;
+    }
+    
+    .bnt a:hover{
+        color: #0066ff;
+    
+    }
+    footer {
+      background-color: #000000;
+      padding: 20px;
+      color: #ffffff;
+      text-align: center;
+    }
